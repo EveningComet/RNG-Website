@@ -1,0 +1,49 @@
+/* The file for making the page look nice. */
+
+html {
+  font-family: "Courier New";
+  justify-content: center;
+  background: hsl(195.00, 6.45%, 12.16%);
+  color: hsl(43.16, 58.76%, 80.98%);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  color: hsl(43.16, 58.76%, 80.98%);
+  font-size: 16px;
+  margin: auto;
+}
+
+button {
+  min-width: 80px;
+  min-height: 60px;
+  font-size: 22px;
+  background-color: hsl(59.52, 70.79%, 34.90%);
+  color: hsl(43.16, 58.76%, 80.98%);
+}
+
+.presetRNGButtonsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* The setup for the objects displaying the roll values. */
+.presetRollValue {
+  color: hsl(6.33, 96.14%, 59.41%);
+  text-align: center;
+  font-size: 32px;
+  margin: auto;
+  padding: 20px;
+}
