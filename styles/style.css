@@ -23,6 +23,7 @@ p {
 }
 
 button {
+  font-family: inherit;
   min-width: 80px;
   min-height: 60px;
   font-size: 22px;
